@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="selections">
-        <button class="selection" data-selection="rock">🗿</button>
-        <button class="selection" data-selection="paper">📃</button>
-        <button class="selection" data-selection="scissors">✂️</button>
+  <div class="selections">
+    <button class="selection" data-selection="rock">🗿</button>
+    <button class="selection" data-selection="paper">📃</button>
+    <button class="selection" data-selection="scissors">✂️</button>
+  </div>
+  <div class="uitslag">
+    <div>
+      Speler
+      <span class="uitslag-score" data-your-score>0</span>
     </div>
-    <div class="results">
-        <div>
-            You
-            <span class="result-score">0</span>
-        </div>
-        <div>
-            Computer
-            <span class="result-score">0</span>
-        </div>
-        <!-- <div class="result-selection winner">🗿</div>
-        <div class="result-selection">✂️</div> -->
+    <div data-final-column>
+      Computer
+      <span class="uitslag-score" data-computer-score>0</span>
     </div>
+  </div>
 </body>
 </html>
